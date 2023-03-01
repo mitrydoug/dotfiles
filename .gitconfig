@@ -1,0 +1,12 @@
+[alias]
+    ca  = commit --ammend
+    can = commit --amend --no-edit
+    cm  = commit -m
+    lg  = log --graph --all --oneline --abbrev-commit
+
+[core]
+    editor = vim
+
+[user]
+    name  = Mitchell Douglass
+    email = mrdouglass95@gmail.com
