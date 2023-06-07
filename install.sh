@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # git aliases
 git config --global alias.co checkout
 git config --global alias.ca 'commit --amend'
