@@ -7,4 +7,4 @@ git config --global alias.can 'commit --ammend --no-edit'
 git config --global alias.cm 'commit -m'
 git config --global alias.lg 'log --graph --all --oneline --abbrev-commit'
 
-cp .bash_aliases ~/
+cp ~/.dotfiles/.bash_aliases ~/
