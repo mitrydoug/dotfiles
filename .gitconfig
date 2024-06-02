@@ -1,0 +1,9 @@
+[alias]
+	co = checkout
+	ca = commit --amend
+	can = commit --amend --no-edit
+	cm = commit -m
+	lg = log --graph --all --oneline --abbrev-commit
+[user]
+	name = Mitchell Douglass
+	email = mrdouglass95@gmail.com
