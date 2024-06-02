@@ -36,11 +36,11 @@ venv_ps1(){
 [ -f ~/.git-prompt.sh ] && . ~/.git-prompt.sh
 
 NEWLINE=$'\n'
-_PS1_HOST=%F{green}%m%F
-_PS1_WORKINGDIR=%F{yellow}%1d%F
-_PS1_GIT_BRANCH=%F{cyan}'$(__git_ps1)'%F
-_PS1_VENV=%F{purple}$'$(venv_ps1)'%F
-_PS1_TIME=%F{blue}%*%F
+_PS1_HOST=%F{green}%m%F{white}
+_PS1_WORKINGDIR=%F{yellow}%1d%F{white}
+_PS1_GIT_BRANCH=%F{cyan}'$(__git_ps1)'%F{white}
+_PS1_VENV=%F{purple}$'$(venv_ps1)'%F{white}
+_PS1_TIME=%F{blue}%*%F{whtie}
 export PS1="${NEWLINE}${_PS1_HOST}:${_PS1_WORKINGDIR}${_PS1_GIT_BRANCH} ${_PS1_VENV}${NEWLINE}[${_PS1_TIME}] :: "
 export VIRTUAL_ENV_DISABLE_PROMPT=1
 setopt PROMPT_SUBST
