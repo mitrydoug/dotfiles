@@ -45,3 +45,6 @@ _PS1_TIME=%F{blue}%*%F{white}
 export PS1="${NEWLINE}${_PS1_USER}@${_PS1_HOST}:${_PS1_WORKINGDIR}${_PS1_GIT_BRANCH} ${_PS1_VENV}${NEWLINE}[${_PS1_TIME}] :: "
 export VIRTUAL_ENV_DISABLE_PROMPT=1
 setopt PROMPT_SUBST
+
+# zsh out-of-the-box completions, including git completions
+autoload -Uz compinit && compinit
